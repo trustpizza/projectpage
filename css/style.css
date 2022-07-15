@@ -31,7 +31,7 @@ a:link, a:visited {
 
 .top {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color:#1F2937;
     padding-left: 70px;
     padding-right: 70px;
@@ -40,6 +40,7 @@ a:link, a:visited {
 }
     .topleft {
         display: flex;
+        flex-direction: column;
     }
     .topright {
         flex-shrink:0;
